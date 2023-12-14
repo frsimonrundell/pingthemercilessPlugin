@@ -1,0 +1,40 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"name": "cm/pingthemerciless",
+	"version": "0.1.0",
+	"title": "Ping the Merciless",
+	"category": "widgets",
+	"icon": "thumbs-up",
+	"description": "WordPress uptime monitoring tool",
+	"example": {},
+	"supports": {
+		"html": false,
+		"reusable": false
+	},
+	"keywords": ["ping"],
+	"textdomain": "cm-ping",
+	"editorScript": "file:./index.js",
+	"editorStyle": "file:./index.css",
+	"render": "file:./render.php",
+	"attributes": {
+	  "uid": {
+		"type": "string",
+		"default": ""
+	  },
+	  "siteName": {
+		"type": "string",
+		"default": ""
+	  },
+	  "siteURL": {
+		"type": "string",
+		"default": ""
+	  },
+	  "passphrase": {
+		"type": "string",
+		"default": ""
+	  }
+	}
+	}
+  
+  

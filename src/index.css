@@ -1,0 +1,119 @@
+/**
+ * The following styles get applied inside the editor only.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+
+.wp-block-cm-pingthemerciless-editor {
+	border: 1px dotted #f00;
+}
+
+.wp-block-cm-pingblock {
+	display: block;
+	background-color: rgb(217, 214, 214);
+	color: #000000;
+	left: 16.5%;
+	width: 66%;
+	max-width: 1000px;
+	padding: 10px;
+	border-radius: 12px;
+	border: solid 3px #000000;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	font-size: 30px;
+	font-weight: 800;
+	z-index: 1001;
+  }
+  
+  .wp-block-cm-result {
+	display: block;
+	background-color: rgb(217, 214, 214);
+	color: #000000;
+	left: 16.5%;
+	width: 66%;
+	max-width: 1000px;
+	padding: 10px;
+	border-radius: 12px;
+	border: solid 3px #000000;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	font-size: 30px;
+	font-weight: 800;
+	z-index: 1001;
+  }
+  
+  .wp-block-cm-explanation {
+	font-size: 14px;
+	font-weight: 200;
+  }
+  
+  .wp-block-cm-title {
+	display: flex;
+  }
+  
+  .wp-block-cm-minglogo {
+	position: absolute;
+	top: 15px;
+	left: 350px;
+	height: 90px;
+	width: 90px;
+	background-color:hsl(0, 0%, 100%);
+	margin: 5px;
+  }
+
+.wp-block-cm-element {
+	display:flex;
+	flex-direction:row;
+	align-items: center; 
+	justify-content:space-between;
+	width: 100%;
+	background-color:hsl(0, 3%, 73%);
+	margin-top: 0;
+	margin-left: 5px;
+	margin-right: 5px;
+	margin-bottom: 5px;
+	padding: 5px;
+	border-radius: 10px;
+	border: solid 1px #000000;
+	color: black;
+	font-size: medium;
+	font-weight: lighter;
+}
+
+.wp-block-cm-label {
+	margin: 10px;
+	background-color:hsl(0, 3%, 73%);
+	color: black;
+	text-align: left;
+	width: 25%;
+}
+
+.wp-block-cm-input {
+	margin: 10px;
+	background-color:hsl(0, 3%, 73%);
+	border: solid 2px #000000;
+	width: 75%;
+	color: black;
+}
+
+.wp-block-cm-ping-button {
+	display: inline-block;
+	padding: 10px 20px;
+	background-color: white;
+	color: black;
+	border: 2px solid black;
+	text-decoration: none;
+	transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .wp-block-cm-ping-button:hover {
+	background-color: black;
+	color: white;
+  }
+  
+ 
+  .wp-block-cm-message {
+	font-size: smaller;
+	margin-left: 10px; 
+  }
+  
